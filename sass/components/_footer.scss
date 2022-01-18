@@ -1,0 +1,105 @@
+.title-box {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.box-list {
+  display: flex;
+}
+.box-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--white-color-text);
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.box-link:hover {
+  fill: white;
+  background-color: var(--hover-text-color);
+}
+.box-link:focus {
+  fill: white;
+  background-color: var(--hover-text-color);
+}
+.box-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.box-footer {
+}
+
+.box-adress {
+  margin-right: 70px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-list-contact {
+}
+.footer {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--hover-text-color);
+}
+
+.adress-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+}
+.icon-email {
+  fill: var(--grey-color);
+}
+
+.white {
+  color: #ffffff;
+}
+.blue {
+  color: var(--hover-text-color);
+}
+.footer-contact:hover {
+  color: var(--hover-text-color);
+}
+.footer-contact:focus {
+  color: var(--hover-text-color);
+}
+.footer-contact {
+  font-size: 14px;
+  line-height: 1.73;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-contact:not(:last-child) {
+  margin-top: 9px;
+}
