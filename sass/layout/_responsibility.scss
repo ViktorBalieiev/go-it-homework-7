@@ -1,0 +1,38 @@
+.box-position{ 
+    display: flex;
+    justify-content: center;
+    }
+  
+ 
+  .perfomance-company{
+   display: flex;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  
+  padding: 0;
+  margin: 0;
+  margin-left: -30px;
+  margin-top: -30px;
+  &__text {
+    flex-basis: calc(100%/4 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+    }
+    
+  }
+
+  
+  .perfomance-company__tittle{
+    padding-bottom: 10px;
+  
+  }
+  .perfomance-company__tittle-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+  text-transform: none;
+  margin-bottom: 94px;
+  }
+
+  

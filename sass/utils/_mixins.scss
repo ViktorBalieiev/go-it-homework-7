@@ -1,0 +1,14 @@
+
+
+
+@mixin font($fz:16px, $fw:400, $ls:0.02em) {
+    font-size: $fz;
+    font-weight: $fw;
+    letter-spacing: $ls;
+}
+@mixin menu  ($d:flex, $ai:center, $ta:center) {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}

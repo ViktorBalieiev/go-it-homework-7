@@ -1,0 +1,19 @@
+.main-nav__logo {
+
+    margin-right: 93px;
+       color: #2196F3 ;
+       font-family: "Rolway", sans-serif;
+       font-weight: bold;
+       font-size: 26px;
+       line-height: 1.20; 
+       text-decoration: none;
+       animation: shake 100ms linear  1;
+     }
+    
+    .main-nav__logo-dark {
+      color: var(--primary-text-color);
+    }
+    
+    .main-nav__logo-light{
+      color: var(--white-color-text);
+    }

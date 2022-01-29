@@ -1,0 +1,72 @@
+.hero{
+  
+    background-color: var(--background-second-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+   
+    padding-left: 0px;
+    padding-right: 0px;
+  
+    margin-bottom: 94px;
+    height:600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto; 
+  
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4), 
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/foto-hero.jpeg)
+  
+  }
+  
+  
+  
+  .hero__baner {
+    @include font (44px, 900, 0.06em) ;
+
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+   
+  max-width: 650px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--white-color-text); 
+  }
+  
+  
+  .hero__button{
+    @include font( 700, 0.06em) ;
+    @include menu  ( );
+    
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+      
+    margin: 0 auto;
+    line-height: 38px;
+      
+    background: #2196F3;
+    color: var(--white-color-text);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+     border: none;
+     height: 50px;
+    
+     transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+     &:focus,
+     &:hover {
+        color: var(--white-color-text);
+        background: #188CE8;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+  }
+      
+     
+    
+  
