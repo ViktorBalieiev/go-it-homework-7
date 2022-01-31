@@ -1,2 +1,1 @@
-# goit-markup-hw-06
-work6
+# go-it-1-hw
